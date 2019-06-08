@@ -3,7 +3,7 @@ import timeit
 data = [{"score": 4744},
         {"score": 1743},
         {"score": 2233},
-        {"score": 9932},
+        {"score": 9632},
         ]
 
 
