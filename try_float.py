@@ -3,7 +3,7 @@ import timeit
 data = [{"score": 4744},
         {"score": 1743},
         {"score": 2233},
-        {"score": 9632},
+        {"score": 9132},
         ]
 
 
@@ -29,6 +29,9 @@ def new_face_3(data):
         score = x.get('score', 0)
         if score > match_score:
             return score
+"""
+add some comment
+"""
 
 print(timeit.timeit(lambda:new_face_1(data), number=100000))
 print(timeit.timeit(lambda:new_face_2(data), number=100000))
